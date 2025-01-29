@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm  # Import tqdm for progress bar
 
-url = "https://www.bci.lk/"
+url = "http://188.165.227.112/portail/series/Game_of_thrones_S3/"
 response = requests.get(url)
 soup = BeautifulSoup(response.content, 'html.parser')
 
